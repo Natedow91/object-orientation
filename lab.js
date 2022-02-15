@@ -4,14 +4,14 @@
   Give it a key of name with the value being your name, and another key 
   of age with the value being your age.
 */
-let me = {
-  name: 'Nate',
-  age: 30,
-}
-//Code here
+// let me = {
+//   name: 'Nate',
+//   age: 30,
+// }
+// //Code here
 
 
-
+// console.log(me)
 //////////////////////////// PROBLEM 2 ////////////////////////////
 
 //Create an object saved to the variable dog.
@@ -20,21 +20,21 @@ let me = {
 //and goodBoy/goodGirl (a boolean).
 
 //Code here
-let dog = {
-  name: 'Boaz',
-  color: 'Black',
-  age: 6,
-  goodBoy: true
-}
+// let dog = {
+//   name: 'Boaz',
+//   color: 'Black',
+//   age: 6,
+//   goodBoy: true
+// }
 
-
+// console.log(dog)
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using 
 dot-notation. */
 
 //Code here
 
-console.log(dog.name)
+// console.log(dog.name)
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using 
@@ -42,7 +42,7 @@ bracket-notation. */
 
 //Code here
 
-console.log['color']
+// console.log['color']
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
 /*
@@ -53,63 +53,80 @@ console.log['color']
 */
 
 //Code here
-let favoriteThings = {
-  band: 'Blink-182',
-  food: 'Baleadas',
-}
+// let favoriteThings = {
+//   band: 'Blink-182',
+//   food: 'Baleadas',
+//   person: 'Gimli',
+//   book: 'The Name of the Wind',
+//   movie: 'The Count of Monte Cristo',
+//   Holiday: 'The 4th of July',
 
+// }
+// console.log(favoriteThings)
 /*
-  After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
+  After you've made your object, use bracket or dot notation to add 
+  another key named 'car' with the value being your favorite car and 
+  then another key named 'show' with the value being your favorite show.
 */
+// favoriteThings.car = 'GTO Judge'
+// favoriteThings['favoriteShow'] = 'Breaking Bad'
+// //Code here
 
-//Code here
-
-
+// console.log(favoriteThings)
+  
 /*
-  Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
-  and change the value of the book key in your favoriteThings object to be 'Harry Potter'. (If they were either of those things already, change them to something else.)
+  Now use bracket or dot notation to change the value of the food key 
+  in your favoriteThings object to be 'Chicken Nuggets'
+  and change the value of the book key in your favoriteThings 
+  object to be 'Harry Potter'. 
+  (If they were either of those things already, change them to 
+    something else.)
 */
-
-//Code here
+// favoriteThings.food = 'Chicken Nuggets'
+// favoriteThings['book'] = 'Harry Potter' 
+// //Code here
 
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
 // Do not edit the code below.
-var carDetails = {
-  color: 'red',
-  make: 'toyota',
-  model: 'tacoma',
-  year: 1994
-}
-// Do not edit the code above.
+// var carDetails = {
+//   color: 'red',
+//   make: 'toyota',
+//   model: 'tacoma',
+//   year: 1994
+// }
+// // Do not edit the code above.
 
-/*
-  Use object destructuring to save the property values from the object carDetails into new variables. 
-*/
+// /*
+//   Use object destructuring to save the property values from the object 
+//   carDetails into new variables. 
+// */
+// const {color, make, model, year} = ride
 
-//Code Here
+// //Code Here
 
-
+// console.log(ride)
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
 
 /*
-  In the function below named greeting, it is receiving an object as a parameter. 
+  In the function below named greeting, it is receiving an object as a 
+  parameter. 
   Use object destructuring to save the object properties to new variables. 
   The property names are firstName, lastName, and title.
 */
 
-function greeting( obj ) {
-  //Code Here
-  
-  // Do not edit the code below.
-  return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
-  // Do not edit the code above.
-}
+// function greeting( obj ) {
+//   //Code Here
+//   const {title, firstName, lastName} = obj
+//   // Do not edit the code below.
+//   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
+//   // Do not edit the code above.
+// }
 
 
-
+// console.log(greeting)
 //////////////////////////// PROBLEM 8 ////////////////////////////
 
 /*
@@ -122,62 +139,79 @@ function greeting( obj ) {
 
 //Code Here
 
+// function totalPopulation (ut) {
+//   const {utah, california, texas, arizona} = ut
+  
+// }
+// console.log('totalPopulation')
+// //////////////////////////// PROBLEM 9 ////////////////////////////
+
+// /*
+//   Write a function called ingredients that will take in an object. 
+//   This object will have 3 properties named carb, fat, and protein. 
+//   The property values will be strings. 
+//   Use object destructuring to save the property values to new variables. 
+//   Push these new variables to an array and return the array. 
+// */
+// // function ingredients (yum) {
+// //   const 
+// // }
+// //Code Here
 
 
-//////////////////////////// PROBLEM 9 ////////////////////////////
 
-/*
-  Write a function called ingredients that will take in an object. 
-  This object will have 3 properties named carb, fat, and protein. 
-  The property values will be strings. 
-  Use object destructuring to save the property values to new variables. 
-  Push these new variables to an array and return the array. 
-*/
+// //////////////////////////// PROBLEM 10 ////////////////////////////
+// // Do not edit the code below.
+// var user = {
+//   name: 'Bryan',
+//   age: 24,
+//   pwHash: 'U+Ldlngx2BYQk',
+//   email: 'BryanSmith33@gmail.com',
+//   birthday: '05/02/1990',
+//   username: 'bryansmith33'
+// };
+// // Do not edit the code above.
 
-//Code Here
+// /*
+//   Let's say I, the user, decided to change my name and email address to the following:
+//   name -> 'Bryan G. Smith' and email -> 'bryan.smith@devmounta.in'.
+//   Make that change without modifying the original object code above.
+// */
 
+// //Code Here
+// user.name = 'Bryan G. Smith'
+// user.email = 'bryan.smith@devmounta.in'
 
-
-//////////////////////////// PROBLEM 10 ////////////////////////////
-// Do not edit the code below.
-var user = {
-  name: 'Bryan',
-  age: 24,
-  pwHash: 'U+Ldlngx2BYQk',
-  email: 'BryanSmith33@gmail.com',
-  birthday: '05/02/1990',
-  username: 'bryansmith33'
-};
-// Do not edit the code above.
-
-/*
-  Let's say I, the user, decided to change my name and email address to the following:
-  name -> 'Bryan G. Smith' and email -> 'bryan.smith@devmounta.in'.
-  Make that change without modifying the original object code above.
-*/
-
-//Code Here
-
-
+// console.log(user)
 //////////////////////////// PROBLEM 11 ////////////////////////////
 /*
   Using the user object above, delete the users age off of the object.
 */
 
 //Code Here
-
-
+// delete user.age
+// console.log(user)
 //////////////////////////// PROBLEM 12 ////////////////////////////
 /*
-  Create a class called 'Cat'. Make sure to call your constructor, and require these 3 parameters: name, age, color.
-  Outside of your class, create an instance of your cat, passing in whatever values you would like.
+  Create a class called 'Cat'. Make sure to call your constructor, and require these 3 
+  parameters: name, age, color.
+  Outside of your class, create an instance of your cat, passing in whatever values 
+  you would like.
   Print the name of your cat instance using dot notation.
 */
 
 //Code here
 
+// class Cat {
+//   constructor(name, age, color){
+//     this.name = name
+//     this.age = age
+//     this.color = color
+//   }
+// }
+// const ginger = new Cat('ginger, 16, black')
 
-
+// console.log(ginger.name)
 //////////////////////////// PROBLEM 13 ////////////////////////////
 /*
   Create a class called 'Wizard'. Make sure to call your constructor, and require these 3 parameters: name, age, favoriteSpell.
